@@ -1,2 +1,3 @@
-exports.dbURL =
-  "mongodb+srv://shubham-pesto:shubham-pesto@cluster0.c70pbi9.mongodb.net/?retryWrites=true&w=majority";
+require("dotenv").config();
+
+exports.dbURL = process.env.DB_URL;
